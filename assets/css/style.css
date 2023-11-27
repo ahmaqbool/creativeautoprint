@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(22, 78, 178, 0.94);
 }
 
 #header .logo {
@@ -269,6 +269,9 @@ h1, h2, h3, h4, h5, h6 {
   .get-started-btn {
     margin: 0 48px 0 0;
     padding: 6px 20px 7px 20px;
+  }
+  .logo .img-fluid {
+    max-width: 90%;
   }
 }
 
