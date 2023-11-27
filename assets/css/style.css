@@ -597,7 +597,11 @@ section {
 
 @media (max-width: 768px) {
   .cliens img {
-    max-width: 40%;
+    min-width: 90px;
+  }
+  .cliens.section-bg .aos-animate {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
   }
 }
 
@@ -961,6 +965,7 @@ section {
   padding: 8px 20px;
   border-radius: 50px;
   font-family: "Poppins", sans-serif;
+  text-wrap: nowrap;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
@@ -1649,6 +1654,11 @@ section {
     position: static;
     margin-top: 30px;
   }
+  .portfolio #portfolio-flters {
+    overflow: scroll;
+    justify-content: start !important;
+    padding-left: 10px;
+}
 }
 
 /*--------------------------------------------------------------
